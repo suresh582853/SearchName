@@ -16,7 +16,7 @@ const Parent=()=>{
      
    return(
             <div>
-                   <h3>Enter Your Name</h3>
+                   <h3>Enter Your Name </h3>
                     <div>
                            <input type="text" value={name} onChange={(e)=>setName(e.target.value)}/>
                     </div>
